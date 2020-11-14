@@ -10,17 +10,14 @@ mv text_file.txt .text_file.txt.backup
 ll
 cp -r sub1 sub3
 rm -rf sub2
-ll
-cd
+ll 
+cd --> sirve para cambiar el directorio
 mkdir Repos 
 cd Repos
 git clone https://github.com/IgorAramb/master_26_clase.git
 ll
 git clone https://github.com/IgorAramb/master_26_clase.git master_26_copy
 ll
-cd master_26_clase
-ll -a 
-cd ..
 cd master_26_copy
 rm -rf .git
 cd ../master_26_clase
